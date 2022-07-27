@@ -1,4 +1,4 @@
-module github.com/sonnguyen-dev/log
+module pkg.uax.io/log
 
 go 1.17
 
