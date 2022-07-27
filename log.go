@@ -33,3 +33,8 @@ func Error(fmtString string, v ...interface{}) {
 		logger.Printf(fmtString)
 	}
 }
+
+func Fatal(fmtString string, v ...interface{}) {
+	Error(fmtString, v)
+	os.Exit(1)
+}
